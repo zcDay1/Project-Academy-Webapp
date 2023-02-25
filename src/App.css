@@ -1,0 +1,1912 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo:300,400,500,600");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 2rem;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+body {
+  background-color: rgba(249, 249, 249, 1);
+  animation-name: fade_animation1;
+  animation-duration: 3s;
+}
+
+select {
+  -webkit-appearance:none;
+  background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve"><path d="M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z"/><path fill="none" d="M0,0h24v24H0V0z"/></svg>');
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+
+.root_animation1 {
+  background-color: rgba(249, 249, 249, 1);
+  animation-name: fade_animation1;
+  animation-duration: 2s;
+}
+
+.root_animation2 {
+  background-color: rgba(249, 249, 249, 1);
+  animation-name: fade_animation2;
+  animation-duration: 2s;
+}
+
+.root_animation3 {
+  background-color: rgba(249, 249, 249, 1);
+  animation-name: fade_animation1;
+  animation-duration: 3s;
+}
+
+@keyframes fade_animation1 {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fade_animation2 {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.Navbar {
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+
+.Navbar_Backbutton {
+  background-color: white;
+  color: white;
+
+  border: none;
+  cursor: pointer;
+}
+
+.Navbar_Backbutton_Image {
+  width: 23px;
+  height: 34px;
+}
+
+.Navbar_Center {
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+
+  width: 70%;
+}
+
+.Navbar_Logo {
+  align-self: center;
+  display: inline-block;
+  height: 3rem;
+}
+
+.Navbar_LHS {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+}
+
+.Navbar_RHS {
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+}
+
+
+
+.Ticker {
+  margin: 2rem auto 1rem auto;
+
+  padding-left: 24px;
+  padding-right: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.Ticker_Unfilled {
+  background-color: #9b9b9b;
+  width: 3rem;
+  height: 2px;
+  
+}
+
+.Ticker_Filled {
+  background-color: purple;
+  width: 3rem;
+  height: 2px;
+}
+
+
+.Central_Col_1_2_3 {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 1%;
+}
+
+.Subtitle {
+  font-family: "Archivo";
+  color: gray;
+  padding-left: 24px;
+  margin-bottom: 2%;
+  font-size: 0.875rem;
+}
+
+.Subtitle_Timetable {
+  font-family: "Archivo";
+  color: gray;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  margin-bottom: 0%;
+  margin-top: 1%;
+}
+
+
+/* ***** START PAGE ***** */
+/* ***** START PAGE ***** */
+/* ***** START PAGE ***** */
+/* ***** START PAGE ***** */
+/* ***** START PAGE ***** */
+
+.Start_Div {
+  background-color: white;
+  border-radius: 5px;
+  border-bottom: 1px solid #ebebeb;
+
+  padding: 8px 24px 8px 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Start_Image {
+  margin: 0 1rem 0 0;
+  width: 100px;
+  height: auto;
+
+}
+
+.Start_Text_Div {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.Start_H3 {
+  font-family: "Archivo";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5rem;
+  margin: 0 0 8px 0;
+}
+
+.Start_P {
+  font-family: "Archivo";
+  font-size: 14px;
+  line-height: 1.5rem;
+  margin: 0px;
+}
+
+.Start_Button {
+  background-color: rgb(236, 80, 70);
+  box-shadow: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(236, 80, 70);
+  border-radius: 5px;
+  width: 85%;
+  
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+
+  cursor: pointer;
+}
+
+.Start_Button_Link {
+  font-family: "Archivo";
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* ***** FORM PAGE ***** */
+/* ***** FORM PAGE ***** */
+/* ***** FORM PAGE ***** */
+/* ***** FORM PAGE ***** */
+/* ***** FORM PAGE ***** */
+
+
+.Title_H1 {
+  font-family: "Archivo";
+  padding-left: 20px;
+  font-size: 32px;
+}
+
+.Title_H1_Timetable {
+  font-family: "Archivo";
+  padding-left: 0%;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.central_input_group {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.subject_preference_list {
+  margin-left: 18px;
+}
+
+.Central_Text_Label {
+  font-size: 14px;
+  margin-left: 2.5%;
+}
+
+.Central_Text_Label_courses {
+  margin-left: 5%;
+}
+
+.Central_Textbox {
+  color: grey;
+
+  width: 90%;
+
+  margin-top: 8px;
+  margin-bottom:8px;
+
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+
+  font-size: 16px;
+}
+
+/* ***** COURSE PREFERENCE ***** */
+/* ***** COURSE PREFERENCE ***** */
+/* ***** COURSE PREFERENCE ***** */
+/* ***** COURSE PREFERENCE ***** */
+/* ***** COURSE PREFERENCE ***** */
+
+
+.Coursepref_Textbox {
+
+  width: 90%;
+
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+
+  font-size: 16px;
+}
+
+.Coursepref_Dropdown {
+  cursor: pointer;
+
+  width: 95%;
+
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+
+
+  margin-left: 2.5%;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+  padding-left: 2.5%;
+
+
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+
+  font-size: 16px;
+}
+
+/* ***** CONTINUE BUTTON ***** */
+/* ***** CONTINUE BUTTON ***** */
+/* ***** CONTINUE BUTTON ***** */
+/* ***** CONTINUE BUTTON ***** */
+/* ***** CONTINUE BUTTON ***** */
+
+.Continue_Button {
+  background-color: rgb(236, 80, 70);
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  
+  font-family: "Archivo";
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+  cursor: pointer;
+}
+
+.Timetable_Continue_Button {
+  background-color: rgb(236, 80, 70);
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+
+  height: 1%;
+  width: 25%;
+  
+  font-family: "Archivo";
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  padding-top: 0.75%;
+  padding-bottom: 0.75%; 
+  margin-bottom: 2%;
+
+  cursor: pointer;
+}
+
+/* ***** SUBJECT PREFERENCE ***** */
+/* ***** SUBJECT PREFERENCE ***** */
+/* ***** SUBJECT PREFERENCE ***** */
+/* ***** SUBJECT PREFERENCE ***** */
+/* ***** SUBJECT PREFERENCE ***** */
+
+.Subjpref_Checkbox_Shown { 
+  cursor: pointer;
+  
+  display: inline;
+  transform: scale(1, 1);
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+.Subjpref_Label_Shown { 
+  cursor: pointer;
+
+  display: inline-block;
+  transform: scale(1, 1);
+  margin-bottom: 1%;
+}
+
+.Subjpref_Checkbox_Hidden {
+  display: none;
+  transform: scale(0, 0);
+  margin: 0px;
+  padding: 0px;
+  height: 0%;
+}
+
+.HSC_Subjpref_Div_Shown {
+  display: block;
+}
+
+.HSC_Subjpref_Div_Hidden {
+  display: none;
+}
+
+.Y11_Subjpref_Div_Shown {
+  display: block;
+}
+
+.Y11_Subjpref_Div_Hidden {
+  display: none;
+}
+
+.Y10_Subjpref_Div_Shown {
+  display: block;
+}
+
+.Y10_Subjpref_Div_Hidden {
+  display: none;
+}
+
+.Y09_Subjpref_Div_Shown {
+  display: block;
+}
+
+.Y09_Subjpref_Div_Hidden {
+  display: none;
+}
+
+
+
+.Central_Timetable_Div {
+  background-color: rgba(249, 249, 249, 1);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Linebreak_Div {
+  background-color: black;
+  margin-top: 25px;
+  margin-bottom: 0%;
+  width: 55px;
+  height: 1px;
+}
+
+.Timetable_Subjname {
+  margin-top: 8px;
+  font-family: "Archivo";
+  font-weight: 400;
+}
+
+.Timetable_Subj_Shown {
+  display: block;
+}
+
+.Timetable_Subj_Hidden {
+  display: none;
+}
+
+.timetable_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+}
+
+.Timetable_Div_Shown {
+
+  display: inline-block;
+  background-color: white;
+  width: 24%;
+  height: 110px;
+  margin-right: 1%;
+  margin-bottom: 10px;
+  padding: 1rem;
+  
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.Timetable_Div_Hidden {
+  vertical-align: top;
+  display: none;
+  background-color: white;
+  width: 24%;
+  height: 130px;
+  margin-right: 1%;
+  
+  border-radius: 5px;
+}
+
+.Timetable_Checkbox {
+  margin-right: 0.75rem;
+  cursor: pointer;
+}
+
+.Timetable_Checkbox_Cross {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.Timetable_Checkbox_Label {
+  font-weight: bold;
+  font-family: "Archivo";
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.Timetable_Div_Desc {
+  font-size: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.Timetable_Div_Campus {
+  background-color: rgb(175, 247, 155);
+  width: 50%;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2.5%;
+
+  margin-top: 2%;
+
+}
+
+.Timetable_Div_Online {
+  background-color: rgb(248, 219, 179);
+  width: 40%;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2.5%;
+
+}
+
+.Timetable_Div_Pro {
+  display: inline-block;
+  background-color: rgb(177, 217, 246);
+  width: 30%;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 15px;
+
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2.5%;
+
+  margin-top: 0%;
+  margin-left: 5%;
+
+}
+
+.Timetable_Location {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Review_Div {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 0%;
+
+  padding: 1rem;;
+}
+
+.Review_Div_2 {
+  padding: 5%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.Line_Mark {
+  text-align: center;
+  display: block;
+  background-color: rgba(249, 249, 249, 1);
+  width: 100%;
+
+  align-self: center;
+  height: 3px;
+
+  margin-right: auto;
+}
+
+.Review_Textbox {
+  cursor: pointer;
+  
+  width: 100%;
+
+  margin-bottom: 5%;
+  margin-top: 2%;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+
+  font-size: 16px;
+}
+
+.Review_Checkbox {
+  cursor: pointer;
+}
+
+.Review_Textbox_Label {
+  font-size: 14px;
+  font-family: "Archivo";
+}
+
+.Review_Checkbox_Label {
+  margin-left: 2%;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Archivo";
+
+  cursor: pointer;
+}
+
+.Review_Text {
+  font-family: "Archivo";
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.25rem;
+}
+
+.Review_Title_H3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.Review_Title_H4 {
+  margin-bottom: 0px;
+}
+
+.Review_Horizontal_Div_1 {
+  background-color: white;
+}
+
+.Review_Horizontal_Div_2 {
+  background-color: white;
+}
+
+.Review_Col_LHS {
+  background-color: white;
+  display: inline-block;
+  width: 50%;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Review_Col_RHS {
+  background-color: white;
+  display: inline-block;
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Review_Bold_Text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Review_Normal_Text {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Archivo";
+}
+
+
+.Finish_Col {
+  width: auto;
+  padding: 1rem 1rem ;
+
+  margin: 8px auto 2rem auto;
+  background-color: white;
+}
+
+.Final_Embed_Div {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.Final_Embed_Video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Final_Title_H3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.Final_Text {
+  font-family: "Archivo";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.Review_Title_H4_Inline {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.Review_Div_Campus {
+  display: inline-block;
+
+  background-color: rgb(175, 247, 155);
+  width: 100%;
+  text-align: center;
+
+  font-size: 14px;
+  border-radius: 10px;
+
+  padding: 2px 10px;
+
+  margin-left: 10%;
+}
+
+.Review_Div_Online {
+  display: inline-block;
+
+  background-color: rgb(248, 219, 179);
+  width: 40px;
+  text-align: center;
+  margin-right: 8px;
+  font-size: 10px;
+  border-radius: 10px;
+
+  padding: 2px 10px;
+
+  margin-left: 10%;
+}
+
+.review_class_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.Review_Div_Time {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Review_Div_Campus {
+  display: block;
+
+  background-color: rgb(175, 247, 155);
+  width: 70px;
+  text-align: center;
+  margin-right: 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 2px 10px;
+}
+
+.Review_Div_Online {
+  display: block;
+
+  background-color: rgb(248, 219, 179);
+  width: 40px;
+  text-align: center;
+  margin-right: 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 2px 10px;
+}
+
+
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+/* portrait tablets and landscape phones */
+
+@media only screen and (max-width: 600px) {
+
+  .Navbar {
+    height: 2.5rem;
+  }
+
+  .Navbar_Logo {
+    align-self: center;
+    display: inline-block;
+    height: 3rem;
+  }
+
+  .Ticker {
+    margin: 0rem auto 1rem auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Ticker_Unfilled {
+    background-color: #9b9b9b;
+    width: 2rem;
+    height: 2px;
+    
+  }
+  
+  .Ticker_Filled {
+    background-color: purple;
+    width: 2rem;
+    height: 2px;
+  }
+
+  .Subtitle {
+    font-family: "Archivo";
+    color: gray;
+    margin-left: 0px;
+    padding-left: 0;
+    margin-bottom: 0%;
+  }
+
+  .Title_H1 {
+    font-family: "Archivo";
+    padding-left: 0;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 8px;
+    font-size: 32px;
+  }
+
+  .Central_Col_1_2_3 {
+    width: auto;
+    margin-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .Start_Div {
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+    height: auto;
+    padding: 0.75rem;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+    border-radius: 5px;
+    box-shadow: 0px 1px rgba(240, 240, 240, 1);
+
+    width: auto;
+  }
+
+  .Start_Image {
+  margin: 0 0.5rem 0 0;
+  width: 100px;
+  height: auto;
+
+  }
+
+  .Start_Text_Div {
+    vertical-align: top;
+    margin-top: 0;
+    margin-right: 0;
+    border: none;
+    padding: 0;
+    }
+
+  .Start_H3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Start_P {
+    font-family: "Archivo";
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+  }
+
+  /* ***** TIMETABLE ***** */
+  /* ***** TIMETABLE ***** */
+  /* ***** TIMETABLE ***** */
+  /* ***** TIMETABLE ***** */
+  /* ***** TIMETABLE ***** */
+
+
+  .Subtitle_Timetable {
+    font-family: "Archivo";
+    color: gray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    margin-bottom: 0%;
+    margin-top: 1%;
+  }
+
+  .Central_Timetable_Div {
+    background-color: rgba(249, 249, 249, 1);
+
+    width: auto;
+    margin-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .Timetable_Checkbox {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .Timetable_Checkbox_Label {
+    font-weight: bold;
+    font-family: "Archivo";
+    font-size: 17px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .Timetable_Div_Shown {
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 38%;
+    height: 100px;
+
+    margin-bottom: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    padding: 10px 15px;
+
+    border-radius: 8px;
+  
+    cursor: pointer;
+  }
+
+  .Timetable_Location {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .Timetable_Div_Desc {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .Timetable_Div_Campus {
+    background-color: rgb(175, 247, 155);
+    width: auto;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .Timetable_Checkbox_Cross {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 2px;
+    font-size: 12px;
+  }
+
+  .Timetable_Div_Online {
+    display: inline-block;
+    background-color: rgb(248, 219, 179);
+    width: auto;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .Timetable_Div_Pro {
+    display: inline-block;
+    background-color: rgb(177, 217, 246);
+    width: 30%;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+
+    margin-top: 0%;
+    margin-left: 5%;
+
+  }
+
+  /* ***** FORM ***** */
+  /* ***** FORM ***** */
+  /* ***** FORM ***** */
+  /* ***** FORM ***** */
+  /* ***** FORM ***** */
+
+  .central_input_group {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .Central_Textbox {
+    font-size: 16px;
+
+    margin: 0rem;
+    margin-bottom: 24px;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding: 1rem 8px 1rem 8px;
+    width: fill;
+
+  }
+
+  .Central_Text_Label {
+    margin-left: auto;
+    font-size: 14px;
+  }
+
+  /* ***** COURSE PREFERENCE ***** */
+  /* ***** COURSE PREFERENCE ***** */
+  /* ***** COURSE PREFERENCE ***** */
+  /* ***** COURSE PREFERENCE ***** */
+  /* ***** COURSE PREFERENCE ***** */
+
+  .Coursepref_Dropdown {
+    cursor: pointer;
+    display: block;
+
+    width: fill;
+
+    font-size: 16px;
+    
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 24px;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+  }
+
+  .Coursepref_Textbox {
+    font-size: 16px;
+
+    margin: 0rem;
+    margin-bottom: 24px;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding: 1rem 8px 1rem 8px;
+    width: fill;
+  }
+
+  .Subjpref_Label_Shown { 
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    transform: scale(1, 1);
+    margin-top: 8px;
+  }
+
+  .subject_preference_list {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .margin_bottom_zero {
+    margin-bottom: 0;
+  }
+
+  /* ***** CONTINUE BUTTONS ***** */
+  /* ***** CONTINUE BUTTONS ***** */
+  /* ***** CONTINUE BUTTONS ***** */
+  /* ***** CONTINUE BUTTONS ***** */
+  /* ***** CONTINUE BUTTONS ***** */
+
+  .Continue_Button {
+    background-color: rgb(236, 80, 70);
+    box-shadow: none;
+    border: none;
+    border-radius: 6px;
+    width: fill;
+    line-height: 30px;
+    
+    font-family: "Archivo";
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    display: block;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 9px 15px;
+
+    cursor: pointer;
+  }
+
+  .Timetable_Continue_Button {
+    background-color: rgb(236, 80, 70);
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+
+    line-height: 28px;
+    margin-left: 28px;
+    margin-right: 30px;
+    width: fill;
+
+    padding: 9px 15px;
+    
+    font-family: "Archivo";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    cursor: pointer;
+  }
+
+  /* ***** REVIEW PAGE ***** */
+  /* ***** REVIEW PAGE ***** */
+  /* ***** REVIEW PAGE ***** */
+  /* ***** REVIEW PAGE ***** */
+  /* ***** REVIEW PAGE ***** */
+  
+  .Review_Title_H3 {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  
+  .Review_Text {
+    font-family: "Archivo";
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .Review_Title_H4_Inline {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .Review_Title_H4 {
+    margin-bottom: 0px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .review_class_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .Review_Div_Time {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0 8px 0;
+  }
+
+  .Review_Div_Campus {
+    display: block;
+  
+    background-color: rgb(175, 247, 155);
+    width: 70px;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 4px 10px;
+  }
+  
+  .Review_Div_Online {
+    display: block;
+  
+    background-color: rgb(248, 219, 179);
+    width: 40px;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 2px 10px;
+  }
+
+  .Review_Bold_Text {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .Review_Normal_Text {
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Archivo";
+  }
+
+  .Review_Checkbox_Label {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Archivo";
+  
+    cursor: pointer;
+  }
+
+  .Review_Textbox {
+    cursor: pointer;
+    
+    width: 100%;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  
+    padding: 1rem 1rem;
+    margin-left: 0;
+  
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+  
+    font-size: 16px;
+  }
+  
+  .Review_Checkbox {
+    cursor: pointer;
+  }
+  
+  .Review_Textbox_Label {
+    font-size: 14px;
+    font-family: "Archivo";
+    margin: 0;
+  }
+
+  .Review_Div_2 {
+    padding: 1rem;
+
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .Final_Text {
+    font-family: "Archivo";
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+}
+
+/* small devices e.g. all phones in portrait */
+/* small devices e.g. all phones in portrait */
+/* small devices e.g. all phones in portrait */
+/* small devices e.g. all phones in portrait */
+/* small devices e.g. all phones in portrait */
+/* small devices e.g. all phones in portrait */
+/* small devices e.g. all phones in portrait */
+/* small devices e.g. all phones in portrait */
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+  .Navbar {
+    height: 2.5rem;
+  }
+
+  .Navbar_Logo {
+    align-self: center;
+    display: inline-block;
+    height: 3rem;
+  }
+
+  .Ticker {
+    margin: 0rem auto 1rem auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Ticker_Unfilled {
+    background-color: #9b9b9b;
+    width: 2rem;
+    height: 2px;
+    
+  }
+  
+  .Ticker_Filled {
+    background-color: purple;
+    width: 2rem;
+    height: 2px;
+  }
+
+  .Subtitle {
+    font-family: "Archivo";
+    color: gray;
+    margin-left: 0px;
+    padding-left: 0;
+    margin-bottom: 0%;
+  }
+
+  .Title_H1 {
+    font-family: "Archivo";
+    padding-left: 0;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 8px;
+    font-size: 32px;
+  }
+
+  .Central_Col_1_2_3 {
+    width: 450px;
+    margin-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .Start_Div {
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+    height: auto;
+    padding: 0.75rem;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+    border-radius: 5px;
+    box-shadow: 0px 1px rgba(240, 240, 240, 1);
+
+    width: auto;
+  }
+
+  .Start_Image {
+  margin: 0 0.5rem 0 0;
+  width: 100px;
+  height: auto;
+
+  }
+
+  .Start_Text_Div {
+    vertical-align: top;
+    margin-top: 0;
+    margin-right: 0;
+    border: none;
+    padding: 0;
+    }
+
+  .Start_H3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Start_P {
+    font-family: "Archivo";
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+  }
+
+
+  .Subtitle_Timetable {
+    font-family: "Archivo";
+    color: gray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    margin-bottom: 0%;
+    margin-top: 1%;
+  }
+
+  .Central_Timetable_Div {
+    background-color: rgba(249, 249, 249, 1);
+
+    width: auto;
+    margin-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .Timetable_Checkbox {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .Timetable_Checkbox_Label {
+    font-weight: bold;
+    font-family: "Archivo";
+    font-size: 17px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+
+  .Timetable_Div_Shown {
+    vertical-align: top;
+    display: inline-block;
+    background-color: white;
+    width: 38%;
+    height: 100px;
+
+    margin-bottom: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    padding: 10px 15px;
+
+    border-radius: 8px;
+  
+    cursor: pointer;
+  }
+
+  .Timetable_Location {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .Timetable_Div_Desc {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .Timetable_Div_Campus {
+    background-color: rgb(175, 247, 155);
+    width: auto;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: auto;
+
+
+  }
+
+  .Timetable_Div_Online {
+    display: inline-block;
+    background-color: rgb(248, 219, 179);
+    width: auto;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .Timetable_Div_Pro {
+    display: inline-block;
+    background-color: rgb(177, 217, 246);
+    width: 30%;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+
+    margin-top: 0%;
+    margin-left: 5%;
+
+  }
+
+  .central_input_group {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .Central_Textbox {
+    font-size: 16px;
+
+    margin: 0rem;
+    margin-bottom: 24px;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding: 1rem 8px 1rem 8px;
+    width: fill;
+
+  }
+
+  .Central_Text_Label {
+    margin-left: auto;
+    font-size: 14px;
+  }
+
+  .subject_preference_list {
+    margin-left: 0px;
+    margin-bottom: 1rem;
+  }
+
+  .Coursepref_Dropdown {
+    cursor: pointer;
+    display: block;
+
+    width: fill;
+
+    font-size: 16px;
+    
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 24px;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+
+
+  }
+
+  .Coursepref_Textbox {
+    font-size: 16px;
+
+    margin: 0rem;
+    margin-bottom: 24px;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding: 1rem 8px 1rem 8px;
+    width: fill;
+
+
+  }
+
+  .Subjpref_Label_Shown { 
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    transform: scale(1, 1);
+    margin-top: 8px;
+  }
+
+  .Continue_Button {
+    background-color: rgb(236, 80, 70);
+    box-shadow: none;
+    border: none;
+    border-radius: 6px;
+    width: fill;
+    line-height: 30px;
+    
+    font-family: "Archivo";
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    display: block;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 9px 15px;
+
+    cursor: pointer;
+  }
+
+  .Timetable_Continue_Button {
+    background-color: rgb(236, 80, 70);
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+
+    line-height: 28px;
+    margin-left: 28px;
+    margin-right: 30px;
+    width: fill;
+
+    padding: 9px 15px;
+    
+    font-family: "Archivo";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    cursor: pointer;
+  }
+  
+  .Review_Title_H3 {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  
+  .Review_Text {
+    font-family: "Archivo";
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .Review_Title_H4_Inline {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .Review_Title_H4 {
+    margin-bottom: 0px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .review_class_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .Review_Div_Time {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .Review_Div_Campus {
+    display: block;
+  
+    background-color: rgb(175, 247, 155);
+    width: 70px;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 2px 10px;
+  }
+  
+  .Review_Div_Online {
+    display: block;
+  
+    background-color: rgb(248, 219, 179);
+    width: 40px;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 2px 10px;
+  }
+
+  .Review_Bold_Text {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .Review_Normal_Text {
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Archivo";
+  }
+
+  .Review_Checkbox_Label {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Archivo";
+  
+    cursor: pointer;
+  }
+
+  .Review_Textbox {
+    cursor: pointer;
+    
+    width: 100%;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  
+    padding: 1rem 1rem;
+    margin-left: 0;
+  
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+  
+    font-size: 16px;
+  }
+  
+  .Review_Checkbox {
+    cursor: pointer;
+  }
+  
+  .Review_Textbox_Label {
+    font-size: 14px;
+    font-family: "Archivo";
+    margin: 0;
+  }
+
+  .Review_Div_2 {
+    padding: 1rem;
+
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .Final_Text {
+    font-family: "Archivo";
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
